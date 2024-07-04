@@ -86,6 +86,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index: 1100;
 }
 
 .hamburger-icon {
@@ -98,6 +99,7 @@ a:hover {
   position: absolute;
   right: 45px;
   transition: transform 0.3s ease;
+  z-index: 1200;
   
 }
 
@@ -117,6 +119,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1000;
 }
 
 .menu-links a {
