@@ -166,6 +166,7 @@ a:hover {
 
   #hamburger-nav {
     display: flex;
+    top: 0;
   }
 }
 
