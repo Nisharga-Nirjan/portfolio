@@ -18,6 +18,7 @@
   }
   #hamburger-nav {
     display: flex;
+    position: fixed;
   }
   #skills,
   .skills-details-container {

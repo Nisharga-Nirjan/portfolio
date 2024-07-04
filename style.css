@@ -81,7 +81,6 @@ a:hover {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: white;
 }
 
 .hamburger-menu {
@@ -96,6 +95,10 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
+  position: absolute;
+  right: 45px;
+  transition: transform 0.3s ease;
+  
 }
 
 .hamburger-icon span {
@@ -144,18 +147,6 @@ a:hover {
 
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:nth-child(2) {
-  opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
 }
 
 /* Display hamburger nav on smaller screens */
