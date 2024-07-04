@@ -138,7 +138,7 @@ a:hover {
 }
 
 .hamburger-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
+  transform: rotate(45deg) translate(6px, 6px);
 }
 
 .hamburger-icon.open span:nth-child(2) {
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
+  transform: rotate(-45deg) translate(6px, -6px);
 }
 
 /* Display hamburger nav on smaller screens */
