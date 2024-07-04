@@ -37,6 +37,12 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 .nav-links {
@@ -70,6 +76,12 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 .hamburger-menu {
@@ -138,12 +150,23 @@ a:hover {
   transform: none;
 }
 
-.hamburger-icon span:first-child {
+.hamburger-icon span:nth-child(2) {
   opacity: 1;
 }
 
 .hamburger-icon span:first-child {
   transform: none;
+}
+
+/* Display hamburger nav on smaller screens */
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
 }
 
 /* SECTIONS */
