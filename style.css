@@ -166,14 +166,21 @@ a:hover {
 
   #hamburger-nav {
     display: flex;
-    top: 0;
-    height: 10vh;
     justify-content: space-between;
+    align-items: center;
+    height: 10vh;
     padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
   }
 
   .hamburger-menu {
     width: 100%;
+
   }
 
   .menu-links {
