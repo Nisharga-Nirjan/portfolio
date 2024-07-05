@@ -205,6 +205,7 @@ section {
 
 .section-container {
   display: flex;
+  margin-top: -5rem;
 }
 
 /* PROFILE SECTION */
@@ -361,20 +362,20 @@ section {
   margin: auto 0;
 }
 
-/* SKILLS SECTION */
+/* RESEARCH SECTION */
 
-#skills {
+#research {
   position: relative;
 }
 
-.skills-sub-title {
+.research-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.skills-details-container {
+.research-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -394,7 +395,7 @@ article {
   align-items: center;
   gap: 1rem;
   width: 170px;
-  height: 80px;
+  height: 140px;
 }
 
 .icon {
@@ -427,6 +428,7 @@ article div {
 
 #projects {
   position: relative;
+  margin-top: 20rem;
 }
 
 .color-container {
@@ -457,6 +459,7 @@ article div {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: -7rem;
 }
 
 .contact-info-upper-container {
@@ -493,7 +496,7 @@ article div {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 10vh;
   margin: 0 1rem;
 }
 

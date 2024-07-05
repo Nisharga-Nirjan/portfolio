@@ -20,8 +20,8 @@
     display: flex;
     position: fixed;
   }
-  #skills,
-  .skills-details-container {
+  #research,
+  .research-details-container {
     margin-top: 2rem;
   }
   #profile,
@@ -76,7 +76,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  .skills-sub-title {
+  .research-sub-title {
     font-size: 1.25rem;
   }
   .logo {
