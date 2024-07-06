@@ -313,12 +313,13 @@ section {
 
 #about {
   position: relative;
+  margin-top: 15rem;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .about-details-container {
@@ -333,6 +334,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  margin-top: 4rem;
 }
 
 .arrow {
@@ -459,7 +461,7 @@ article div {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: -7rem;
+  margin-top: 10rem;
 }
 
 .contact-info-upper-container {
