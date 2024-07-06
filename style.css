@@ -459,7 +459,7 @@ article div {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 1rem;
+  margin-top: -7rem;
 }
 
 .contact-info-upper-container {
