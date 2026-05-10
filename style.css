@@ -324,8 +324,10 @@ section {
 }
 
 .about-details-container {
+  flex: 1;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .about-containers,
@@ -352,6 +354,17 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+}
+
+.text-container {
+  width: 100%;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  box-sizing: border-box;
+  text-align: justify;
 }
 
 .section-container {
